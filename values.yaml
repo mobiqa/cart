@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: 136325909517.dkr.ecr.us-east-1.amazonaws.com/cart
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "8.1.1"
 
